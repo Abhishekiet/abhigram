@@ -53,9 +53,9 @@ const AddPost=()=>{
                     <input type='file' className="w-[20%] hidden" id='qwert' onChange={ e=> setImage( e.target.files[0] ) }/> 
                     
                     {
-                        image ? <div className="mt-[15%]"> <h1 className="text-center text-blue-700 text-xl font-bold"> Image Selected !!! Proceed to post </h1> </div> :
+                        image ? <div className="mt-[3vh]"> <h1 className="text-center text-blue-700 text-xl font-bold"> Image Selected !!! Proceed to post </h1> </div> :
                     
-                    <label className="text-start mt-[10vh] flex flex-col justify-center items-center " style={{ fontFamily:"cursive" }} htmlFor='qwert'> 
+                    <label className="text-start mt-[3vh] flex flex-col justify-center items-center " style={{ fontFamily:"cursive" }} htmlFor='qwert'> 
                        <BsFillCloudDownloadFill size={35} className="text-center text-blue-700"/>
                        <h1 className="mt-4"> Choose Image </h1>
                     </label>
@@ -64,7 +64,7 @@ const AddPost=()=>{
 
                 </div>
 
-                <div className="flex justify-center mt-6">
+                <div className="flex justify-center mt-[3vh]">
                     {
                         title && image && desc ?
                         <button className="bg-[green] p-4 mt-[5%] text-white rounded-full font-bold" onClick={add}> Share Post </button> :
