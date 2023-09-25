@@ -29,7 +29,7 @@ const App=()=>{
   return(
     <div className="flex flex-col items-center justify-center p-2 bg-gray-200">
        
-      <div className=" h-[85vh] md:w-[50%] overflow-scroll" >
+      <div className=" h-[85vh] md:w-[50%] overflow-scroll p-4" >
       
       {
         array.length > 0 ? 
