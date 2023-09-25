@@ -37,16 +37,16 @@ const AddPost=()=>{
         <div className="flex flex-col h-[85vh] bg-gray-200 md:items-center p-4">
                 <h1 className="text-2xl font-bold text-center md:mt-8"> Lets feed something awesome today ... </h1>            
                 
-                <div className=" flex p-4 flex-col h-[45vh] mt-[10%] md:mt-6 md:w-[50%] items-center text-2xl shadow shadow-2xl py-4 bg-white">
+                <div className=" flex p-4 flex-col h-[60vh] mt-[10%] md:mt-6 md:w-[50%] items-center text-2xl shadow shadow-2xl py-4 bg-white">
                     
                     <div className="flex flex-col w-[90%] ">
                     <h1 className="text-start pl-3" style={{ fontFamily:"cursive" }}> Add Title : </h1>
-                    <input type='text' onChange={e=> setTitle(e.target.value)} className="h-6 p-5 mt-3 rounded-3xl bg-gray-200" placeholder="Add Title here..."/>
+                    <input type='text' onChange={e=> setTitle(e.target.value)} className="h-[3vh] p-5 mt-[3%] rounded-3xl bg-gray-200" placeholder="Add Title here..."/>
                     </div>
 
                     <div className="flex flex-col w-[90%]">
                     <h1 className="text-start mt-[5%] pl-3" style={{ fontFamily:"cursive" }}> Add Description : </h1>
-                    <input type='text' onChange={e=> setDesc(e.target.value)} className="h-28 p-5 mt-3 rounded-3xl md:h-20 bg-gray-200" placeholder="Add Post Description here..."/>
+                    <input type='text' onChange={e=> setDesc(e.target.value)} className="h-[15vh] p-5 mt-3 rounded-3xl md:h-20 bg-gray-200" placeholder="Add Post Description here..."/>
                     </div>
 
                     <div className="flex width-full justify-between">
@@ -55,7 +55,7 @@ const AddPost=()=>{
                     {
                         image ? <div className="mt-[15%]"> <h1 className="text-center text-blue-700 text-xl font-bold"> Image Selected !!! Proceed to post </h1> </div> :
                     
-                    <label className="text-start mt-[15%] flex flex-col justify-center items-center " style={{ fontFamily:"cursive" }} htmlFor='qwert'> 
+                    <label className="text-start mt-[10vh] flex flex-col justify-center items-center " style={{ fontFamily:"cursive" }} htmlFor='qwert'> 
                        <BsFillCloudDownloadFill size={35} className="text-center text-blue-700"/>
                        <h1 className="mt-4"> Choose Image </h1>
                     </label>
