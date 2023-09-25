@@ -37,7 +37,7 @@ const AddPost=()=>{
         <div className="flex flex-col h-[85vh] bg-gray-200 md:items-center p-4">
                 <h1 className="text-2xl font-bold text-center md:mt-8"> Lets feed something awesome today ... </h1>            
                 
-                <div className=" flex p-4 flex-col h-[50vh] mt-[10%] md:mt-6 md:w-[50%] items-center text-2xl shadow shadow-2xl py-4 bg-white">
+                <div className=" flex p-4 flex-col h-[45vh] mt-[10%] md:mt-6 md:w-[50%] items-center text-2xl shadow shadow-2xl py-4 bg-white">
                     
                     <div className="flex flex-col w-[90%] ">
                     <h1 className="text-start pl-3" style={{ fontFamily:"cursive" }}> Add Title : </h1>
